@@ -19,17 +19,17 @@ header div{
     transition: transform .3s;
     }
 
+header img{
+    width: 100%;
+    border-radius: 50%;    
+    }
+
+
 header div:hover{
 transform: scale(1.1);    
 
 }
 
-
-
-header img{
-    width: 100%;
-    border-radius: 50%;    
-}
 
 ul {
 list-style: none;
@@ -54,12 +54,6 @@ body *{
 
 
 }
-
-/*
-main * {
-border: 1px solid rgb(131, 11, 11);
-
-} */
 
 main {
 max-width: 580px;
@@ -136,6 +130,4 @@ section ul li:hover{
     transform: scale(1.1);
 }
 
-
-/*--- Animação ---*/
 
